@@ -1,6 +1,7 @@
 Spam and Phishing Model Training Summary
 This notebook trains two machine learning models to classify emails as spam/ham and phishing/safe using Logistic Regression with TF-IDF vectorization. 
 
+Access to our MVP here - https://hacknyu-phishspamdetection.streamlit.app/
 Key steps:
 Data Preparation:
 
@@ -57,10 +58,10 @@ Run the Application:
 Execute this command:
 
 bash<button><svg><path></path></svg><span>Copy code</span><span></span></button>
-python your_script_name.py
+python app.py
 
 Access the Application:
-Open a browser and go to http://127.0.0.1:5000/.
+Open a browser and go to [http://127.0.0.1:5000/] localhost - Working website -(https://hacknyu-phishspamdetection.streamlit.app/).
 
 API Endpoint:
 Post to the /analyze endpoint using:
